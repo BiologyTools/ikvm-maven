@@ -1,4 +1,4 @@
-﻿<Project Sdk="IKVM.NET.Sdk">
+﻿<Project Sdk="IKVM.NET.Sdk/8.15.0">
     <PropertyGroup>
         <TargetFrameworks>net472;net6.0</TargetFrameworks>
     </PropertyGroup>

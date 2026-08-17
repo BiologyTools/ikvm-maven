@@ -6,7 +6,7 @@
         <IncludeBuildOutput>false</IncludeBuildOutput>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <Description>Java SE 8 Virtual Machine for .NET (Maven SDK)</Description>
+        <Description>Java SE 11 Virtual Machine for .NET (Maven SDK)</Description>
         <GenerateDocumentationFile>false</GenerateDocumentationFile>
         <DevelopmentDependency>true</DevelopmentDependency>
     </PropertyGroup>
@@ -20,7 +20,7 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="all" />
-        <PackageReference Include="IKVM" Version="8.15.0" />
+        <PackageReference Include="IKVM11" Version="8.15.0" />
     </ItemGroup>
 
     <ItemGroup>
